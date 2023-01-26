@@ -1,0 +1,52 @@
+.selects {
+        width: 165px;
+        height: 35px;
+        position: relative;
+        background-color: #fff;
+    }
+.selects.active .select__bodys {
+    display: block;
+}
+.select__headers {
+    display: flex;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.select__currents {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px;
+}
+.select__icons {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
+.select__bodys {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 42px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    display: none;
+    width: 100%;
+    height: 161px;
+    background-color: #fff;
+    z-index: 5;
+}
+.select__items {
+    line-height: 24px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.select__items:hover {
+    background-color: #00c8c8;
+}
+
